@@ -2,11 +2,13 @@ module github.com/viktoralyoshin/utils
 
 go 1.22.2
 
-require github.com/rs/zerolog v1.34.0
+require (
+	github.com/alexedwards/argon2id v1.0.0
+	github.com/golang-jwt/jwt/v5 v5.3.0
+	github.com/rs/zerolog v1.34.0
+)
 
 require (
-	github.com/alexedwards/argon2id v1.0.0 // indirect
-	github.com/golang-jwt/jwt/v5 v5.3.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.19 // indirect
 	golang.org/x/crypto v0.14.0 // indirect
