@@ -1,4 +1,4 @@
-package model
+package customerr
 
 import "errors"
 
