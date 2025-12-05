@@ -9,7 +9,7 @@ type EnumVariable struct {
 
 type Enum map[State]string
 
-func Create(evs []EnumVariable) Enum {
+func New(evs []EnumVariable) Enum {
 
 	enum := make(Enum)
 
