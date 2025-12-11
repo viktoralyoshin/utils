@@ -9,4 +9,5 @@ var (
 	ErrGameNotFound       = errors.New("game not found")
 	ErrUserPassword       = errors.New("invalid password and/or login")
 	ErrReviewExists       = errors.New("already reviewed")
+	ErrReviesNotFound     = errors.New("reviews not found")
 )
