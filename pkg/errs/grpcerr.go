@@ -7,9 +7,6 @@ import (
 	"google.golang.org/grpc/status"
 )
 
-// HTTPStatus возвращает соответствующий HTTP код и чистое сообщение ошибки
-// на основе gRPC ошибки.
-// Возвращает: (httpCode, errorMessage)
 func HTTPStatus(err error) (int, string) {
 	if err == nil {
 		return http.StatusOK, ""
