@@ -10,4 +10,6 @@ var (
 	ErrUserPassword       = errors.New("invalid password and/or login")
 	ErrReviewExists       = errors.New("already reviewed")
 	ErrReviesNotFound     = errors.New("reviews not found")
+	ErrInvalidMetadata    = errors.New("invalid metadata")
+	ErrMetadataNotFound   = errors.New("metadata not found")
 )
