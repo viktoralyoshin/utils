@@ -20,9 +20,9 @@ type Manager struct {
 
 type UserClaims struct {
 	jwt.RegisteredClaims
-	UserId    string
-	UserRole  string
-	TokenType string
+	UserId    string `json:"user_id"`
+	UserRole  string `json:"user_role"`
+	TokenType string `json:"token_type"`
 }
 
 func NewManager(signingKey string, accessTokenTtl, refreshTokenTtl time.Duration) (*Manager, error) {
